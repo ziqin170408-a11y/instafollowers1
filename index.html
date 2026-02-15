@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMM Murah Banget</title>
+    <title>MediaBoost - SMM Panel Termurah</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -14,7 +14,7 @@
     <div class="container">
         <header>
             <h1>🚀 MediaBoost</h1>
-            <p>Followers & Likes Termurah se-Indonesia</p>
+            <p>Layanan Sosial Media Tercepat & Termurah</p>
         </header>
 
         <div class="grid-promo">
@@ -32,9 +32,9 @@
 
         <div class="main-card">
             <div class="input-group">
-                <label>Pilih Sosmed</label>
+                <label><i class="fas fa-share-alt"></i> Pilih Sosmed</label>
                 <select id="sosmed" onchange="updateLayanan()">
-                    <option value="">-- Pilih --</option>
+                    <option value="">-- Pilih Platform --</option>
                     <option value="ig">Instagram</option>
                     <option value="tt">TikTok</option>
                     <option value="yt">YouTube</option>
@@ -42,24 +42,24 @@
             </div>
 
             <div class="input-group">
-                <label>Pilih Layanan</label>
+                <label><i class="fas fa-list"></i> Pilih Layanan</label>
                 <select id="layanan" onchange="hitungHarga()" disabled>
                     <option value="">Pilih Sosmed Dulu</option>
                 </select>
             </div>
 
             <div class="input-group">
-                <label>Username / Link</label>
-                <input type="text" id="target" placeholder="Contoh: @akun_kamu">
+                <label><i class="fas fa-link"></i> Username / Link Target</label>
+                <input type="text" id="target" placeholder="Contoh: @username">
             </div>
 
             <div class="input-group">
-                <label>Jumlah Pesanan (Min 100)</label>
+                <label><i class="fas fa-sort-amount-up"></i> Jumlah (Min. 100)</label>
                 <input type="number" id="jumlah" value="1000" min="100" oninput="hitungHarga()">
             </div>
 
             <div class="hasil-harga">
-                <span>Total Bayar:</span>
+                <span>Estimasi Total:</span>
                 <h2 id="totalDisplay">Rp 0</h2>
             </div>
 
@@ -70,6 +70,5 @@
     </div>
 
     <script src="index.js"></script>
-
 </body>
 </html>
