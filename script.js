@@ -1,13 +1,13 @@
 const daftarHarga = {
     ig: [
-        { nama: "Followers Pasif", harga: 8 }, // Rp 8.000 / 1k
-        { nama: "Followers Indo Aktif", harga: 25 },
-        { nama: "Likes Instagram", harga: 3 }
+        { nama: "Followers Pasif", harga: 40 }, // Rp 8.000 / 1k
+        { nama: "Followers Indo Aktif", harga: 50 },
+        { nama: "Likes Instagram", harga: 15 }
     ],
     tt: [
-        { nama: "TikTok Followers", harga: 15 },
-        { nama: "TikTok Views", harga: 0.2 }, // Rp 200 / 1k
-        { nama: "TikTok Likes", harga: 10 }
+        { nama: "TikTok Followers", harga: 30 },
+        { nama: "TikTok Views", harga: 3 }, // Rp 200 / 1k
+        { nama: "TikTok Likes", harga: 20 }
     ],
     yt: [
         { nama: "YouTube Subscribers", harga: 200 },
