@@ -58,7 +58,7 @@ function gasOrder() {
         return;
     }
 
-    const waAdmin = "628123456789"; // GANTI DENGAN NOMOR WA KAMU
+    const waAdmin = "6287717278361"; // GANTI DENGAN NOMOR WA KAMU
     const pesan = `Halo Admin, saya mau order:%0A- Layanan: ${namaLayanan}%0A- Target: ${target}%0A- Jumlah: ${jumlah}%0A- Total: ${total}`;
     
     window.open(`https://wa.me/${waAdmin}?text=${pesan}`, '_blank');
